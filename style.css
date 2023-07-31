@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: Green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+header {
+    display: block;
+    border: .1rem solid grey;
+    padding: 5rem 5rem;
+    margin-bottom: 2rem;
+    width: 50rem;
+}
+header h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    /* border: .1rem solid; */
+}
+#newTaskInput{
+    width: 30rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    border: none;
+}
+#newTaskSubmit{
+    padding: .5rem;
+    border: none;
+    border-radius: .3rem;
+    background: linear-gradient(to right, grey,green,yellow);
+}
+
+.taskList {
+    border: .1rem solid grey;
+    width: 50rem;
+    text-align: center;
+    padding: 5rem 5rem;
+}
+
+.task{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.content {
+    width: 20rem;
+    
+}
+.text,.content{
+    width: 20rem;
+    padding: .5rem;
+    border: none;
+    border-radius: .3rem;
+}
+.edit {
+    border: none;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: black;
+    color: white;
+}
+
+.delete{
+    padding: .5rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: black;
+    color: white;
+}
